@@ -16,11 +16,11 @@ int main(void){
 	SetConsoleOutputCP(cp); 
 	system("color 02");
 	
-//VARIÁVEIS
+//VARIÃVEIS
 	int num,soma,resu,zero;
 
-//CÓDIGO
-	printf("Insira num número: ");
+//CÃ“DIGO
+	printf("Insira num nÃºmero: ");
 	scanf("%d",&num);
 	
 	for(soma=0;soma>=-1;soma++){
@@ -29,7 +29,7 @@ int main(void){
 		soma=soma+1;
 		Sleep(50);
 			
-		printf("\nDeseja parar o programa? 0-Sim 1-Não ");
+		printf("\nDeseja parar o programa? 0-Sim 1-NÃ£o ");
 		scanf("%d",&zero);
 		if(zero==0){
 			abort();
