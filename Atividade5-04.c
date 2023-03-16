@@ -16,9 +16,9 @@ int main(void){
 	
 	int tab,num,num2,resu;
 	system("color 02");
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&tab);
-	printf("Digite até onde vai: ");
+	printf("Digite atÃ© onde vai: ");
 	scanf("%d",&num);
 	
 	num2=1;
