@@ -10,13 +10,13 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	system("color 02");
 	
-//VARIÁVEIS
+//VARIÃVEIS
 int num,fat;
 
-//INÍCIO PROGRAMA
+//INÃCIO PROGRAMA
 	printf("CALCULANDO O FATORIAL");
 	Sleep(1000);
-	printf("\nInsira um número: ");
+	printf("\nInsira um nÃºmero: ");
 	scanf("%d",&num);
 	
     for(fat=1;num>1;num=num-1)
