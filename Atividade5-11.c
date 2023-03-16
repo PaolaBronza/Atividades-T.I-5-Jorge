@@ -17,15 +17,15 @@ int main(void){
 	
 	int num, num1,num2,num3,num4,num5;
 	num=num1,num2,num3,num4,num5;
-	printf("Insira 5 números:\nN°1: ");
+	printf("Insira 5 nÃºmeros:\nNÂ°1: ");
 	scanf("%d",&num1);
-	printf("N°2: ");
+	printf("NÂ°2: ");
 	scanf("%d",&num2);
-	printf("N°3: ");
+	printf("NÂ°3: ");
 	scanf("%d",&num3);
-	printf("N°4: ");
+	printf("NÂ°4: ");
 	scanf("%d",&num4);
-	printf("N°5: ");
+	printf("NÂ°5: ");
 	scanf("%d",&num5);
 	
 	while(num1,num2,num3,num4,num5>=0){
