@@ -18,31 +18,31 @@ int main(void){
 /*GABARITO
 Capital? 100.00 
 Juros? 10
-Período? 3		
-1º mês R$ 110,00
-2º mês R$ 121,00
-3º mês R$ 133,10*/
+PerÃ­odo? 3		
+1Âº mÃªs R$ 110,00
+2Âº mÃªs R$ 121,00
+3Âº mÃªs R$ 133,10*/
 	
-//VARIÁVEIS
+//VARIÃVEIS
 	int capital,juros,periodo;
 	float mont1,mont2,mont3;
 	capital=100;
 	juros=10;
 	periodo=3;
 	
-//CÁLCULOS
+//CÃLCULOS
 	mont1=capital+(capital*10/100);
 	mont2=mont1+(mont1*10/100);
 	mont3=mont2+(mont2*10/100);
 	
-//IMPRESSÃO
-	printf("Juros: 10%c\nPeríodo: 3 meses\nCapital Inicial: R$100,00\n",37);
+//IMPRESSÃƒO
+	printf("Juros: 10%c\nPerÃ­odo: 3 meses\nCapital Inicial: R$100,00\n",37);
 	Sleep(800);
-	printf("\nMontante 1° mês: R$%.2f",mont1);
+	printf("\nMontante 1Â° mÃªs: R$%.2f",mont1);
 	Sleep(800);
-	printf("\nMontante 2° mês: R$%.2f",mont2);
+	printf("\nMontante 2Â° mÃªs: R$%.2f",mont2);
 	Sleep(800);
-	printf("\nMontante 3° mês: R$%.2f",mont3);
+	printf("\nMontante 3Â° mÃªs: R$%.2f",mont3);
 	
 return 0;
 }
